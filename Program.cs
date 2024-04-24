@@ -6,32 +6,14 @@ using System.Threading;
 namespace MOOOV
 {
     public class Program
-    {
-
-       public static ArrayList testing = new ArrayList();
-        
-
-
+    {     
 
         public static void Main()
-        {
-
-            testing.Add("hei");
-            foreach(string test in testing)
-            {
-                Console.WriteLine(test);
-            }
-            
-
-        }
-
-            /*
+        {          
             string[] colors = { "black", "yellow", "red", "blue", "green" };
             string randomColor;
 
-            
-
-            List<string> sequence = new List<string>();
+            ArrayList sequence = new ArrayList();
 
             do
             {
@@ -41,7 +23,7 @@ namespace MOOOV
             } while (Console.ReadKey().Key == ConsoleKey.Enter);
         }
 
-        public static string FetchColor(string[] colors, List<string> sequence)
+        public static string FetchColor(string[] colors, ArrayList sequence)
         {
             int index;
             string randomColor;
